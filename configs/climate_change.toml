@@ -1,0 +1,33 @@
+[grid]
+width  = 100
+height = 100
+
+[climate]
+base_temp               = 18.0
+temp_amplitude_daily    = 9.0
+temp_amplitude_seasonal = 18.0
+lapse_rate              = 6.5
+
+[water]
+rain_probability = 0.016
+rain_amount      = 0.25
+evaporation_rate = 0.008
+water_diffusion  = 0.012
+
+[vegetation]
+growth_rate             = 0.04
+carrying_capacity       = 1.0
+water_threshold         = 0.06
+temp_opt                = 20.0
+temp_sigma              = 11.0
+death_rate              = 0.012
+colonization_threshold  = 0.6
+
+[simulation]
+ticks_per_day   = 24
+ticks_per_year  = 8760
+ticks_per_frame = 12
+
+[animals]
+n_herbivores = 55
+n_carnivores = 12
