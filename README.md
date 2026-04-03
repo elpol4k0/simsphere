@@ -57,6 +57,8 @@ At the end of each run, two CSV files are written to `data/output/`:
 
 The following screenshots were taken from a default simulation run.
 
+<div align="center">
+
 **Surface temperature**
 ![Surface Temperature](doc/temperatur.png)
 
@@ -74,6 +76,8 @@ The following screenshots were taken from a default simulation run.
 
 **Soil state**
 ![Soil](doc/soil.png)
+
+</div>
 
 ## Project structure
 
